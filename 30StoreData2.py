@@ -50,7 +50,7 @@ myDict.pop("name")
 
 print("list : ",myList)
 print("set : ",mySet)
-print("dict : ",myDict)\
+print("dict : ",myDict)
     
 # convert tuple to list
 convertList = list(myTuple)
