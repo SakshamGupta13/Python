@@ -17,7 +17,7 @@ class ClassName:
 class Saksham:
     age = 19
     fullName = "Saksham Gupta"
-    email = "sakksham@gmail.com"
+    email = "saksham@gmail.com"
     
     def pocketMoney(this,amount):
         print("My pocket money is ",amount)
