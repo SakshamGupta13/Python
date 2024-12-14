@@ -13,7 +13,7 @@ else:
 # Press 1 to add new event : eventname , eventdate , venue , eventid
 # Press 2 to get all event
 # Press 3 to delete event 
-# Press 4 to update event 
+# Press 4 to update event   
 # Press 5 to add student in event : studentname , stuemail , stumobile , studept , stuyear  , eventname
 # Press 6 to get all student
 # Press 7 to delete student
@@ -35,7 +35,7 @@ print("Press 8 to update Student : ")
 select = int(input("enter no. 1 to 8 : "))
 # to add the new event
 if(select==1):
-    insertevent ="insert into eventdata values('{}' , '{}' , '{}' , '{}')".format(input("Enter Event name : ") , input("Enter Event date : ") , input("Enter Venue : ") , int(input("enter eventid ")))
+    insertevent ="insert into eventdata values('{}' , '{}' , '{}' , '{}')".format(input("Enter Event name : ") , input("Enter Event date : ") , input("Enter Venue : ") , int(input("enter eventid : ")))
     mycursor.execute(insertevent)
     connection.commit()
 
@@ -88,4 +88,4 @@ elif(select==8):
     connection.commit()
     
 else:
-    print("you have selected out of the range no.")
+    print("you have selected out of the range no.") 
